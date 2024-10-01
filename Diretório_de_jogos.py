@@ -3,8 +3,8 @@ print("Bem vindo ao meu diretório de jogos!!")
 
 
 while True:
-    print("------------------OPÇÕES------------------")
-    print("[1] Snake [2] Undertale [3] Pong [4]Rpg(não_finalizado) [5] Pong2 [6] Balls [7] Sair")
+    print("------------------JOGOS------------------")
+    print("[1] Snake\n[2] Undertale\n[3] Pong\n[4]Rpg(não_finalizado)\n[5] Pong2\n[6] Space Invaders\n[7] Balls\n[0] Sair")
     choice = str(input(" "))
     if choice == "1":
         os.system('Snake.py')
@@ -17,8 +17,10 @@ while True:
     elif choice == "5":
         os.system('Pong2.py')
     elif choice == "6":
-        os.system('Balls.py')
+        os.system('Space_Invaders.py')
     elif choice == "7":
+        os.system('Balls.py')
+    elif choice == "0":
         break
     else:
         print("Comando inválido.")
